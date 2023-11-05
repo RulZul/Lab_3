@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b9b7068d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images\logo amirul new.jpg" class="logo">
+            <ul>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#Biodata">BIODATA</a></li>
+                <li><a href="#Hobbies">HOBBIES</a></li>
+                <li><a href="#campus">CAMPUS LIFE</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>Hi, I'm A<span>mirul</span></h1>
+            <p>Welcome to my personal website.
+                <br> Feel free to browse and know more about me!
+            </p>
+            <a href="RESUME AMIRUL.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="images\red.png" class="shape">
+            <img src="images\amirulNoBG.png" class="boy">
+        </div>
+    </div>
+
+    <!--------- BIODATA ---------->
+
+    <div id="Biodata">
+        <div class="container">
+            <div class="row">
+                <div class="biodata-col-1">
+                    <img src="images\amirul2-removebg-preview.png">
+                </div>
+                <div class="biodata-col-2">
+                    <h1 class="sub-title">BIODATA</h1><br>
+                    
+                    <p>My name is Amirul Hafiz Bin Zulazli and was born on August 15, 2001. I consider myself a Malay and a follower of Islam. <br>
+                        I live in Ampang, Selangor and I am currently studying at Universiti Tun Hussein Onn (UTHM), working towards a degree in Software Engineering.</p>
+
+                    
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('contact')">Contact</p>
+                        <p class="tab-links" onclick="opentab('programming skills')">Programming Skills</p>
+                        <p class="tab-links" onclick="opentab('future plans in 2024')">Future Plans in 2024</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="contact">
+                        <ul>
+                            <li>Mobile Phone : <a href="https://wa.me/601137525269">011-37525269</a></li>
+                            <li>Social Media : <a href="https://www.instagram.com/amirul_zulazli/">amirul_zulazli</a></li>
+                            <li>Website : <a href="https://github.com/RulZul">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="programming skills">
+                        <ul>
+                            <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+                            <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                            <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+                            <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+                            <li><a href="https://www.w3schools.com/python/default.asp">Python</a></li>
+                            <li><a href="https://www.w3schools.com/java/default.asp">Java</a></li>
+                            <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="future plans in 2024">
+                        <ul>
+                            <li>Internship at <a href="https://careers.microsoft.com/v2/global/en/students">Microsoft</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--------- HOBBIES ---------->
+<style>
+    .hobbies-list div {
+      text-align: center; /* Center-align the text */
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center-align vertically */
+    }
+  </style>
+<div id="Hobbies">
+    <div class="container">
+        <h1 class="sub-title">HOBBIES</h1><br>
+        <div class="hobbies-list">
+            <div>
+                
+                <i class="fa-solid fa-futbol"></i>
+                <h2>Football</h2>
+                
+                <p>I represent the FSKTM football team, and football has been a sport i love since i was 8 years old.</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-guitar"></i>
+                
+                <h2>Music</h2>
+                
+                <p>I frequently play the guitar in my leisure time. I've been playing for over 12 years now since I started when i was around 10 years old.</p>
+                <a href="#">Learn more</a><br>
+                
+            </div>
+        </div>
+    </div>    
+</div>
+
+<!--------- CAMPUS LIFE ---------->
+
+<div id="campus">
+    <div class="container">
+        <h1 class="sub-title">CAMPUS LIFE</h1><br>
+        <div class="programs-list">
+            <style>
+                .programs {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    padding: 20px;
+                }
+            
+                .programs h3 {
+                    margin: 0;
+                }
+            </style>
+            <div class="programs">
+                <h3>Neon Run 2023</h3>
+                <img src="images\neon-removebg-preview.png">
+                <div class="layer">
+                    
+                    <p>I joined the UTHM Neon Run on 2 June 2023 with my friends</p>
+                    <a href="#"><i class="fa-solid fa-person-running"></i></a>
+                </div>
+            </div>
+            <div class="programs">
+                <h3>Zus Coffee after class is a MUST!</h3>
+                <img src="images\coffeenew-removebg-preview.png">
+                <div class="layer">
+                    
+                    <p>I always order my fave drink (Iced Latte) after a full day of class</p>
+                    <a href="#"><i class="fa-solid fa-mug-hot"></i></a>
+                </div>
+                <style>
+                    .programs {
+                        text-align: center;
+                        padding: 20px;
+                    }
+                
+                    .image-container {
+                        position: relative;
+                    }
+                
+                    .image-container img {
+                        width: 100%; /* Make sure the image takes the full width of the container */
+                    }
+                
+                    .layer {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                </style>
+            </div>
+            <div class="programs">
+                <h3>UTHM VS UTeM</h3>
+                <img src="images\stadiumnew.jpg">
+                <div class="layer">
+                    
+                    <p>I went to a friendly hockey match between UTHM & UTeM</p>
+                    <a href="#"><i class="fa-solid fa-hockey-puck"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<style>
+    .image-container {
+        display: inline-block;
+    }
+</style>
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
